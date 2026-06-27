@@ -1,7 +1,7 @@
 // src/main.rs
-mod matematik;
+mod shareable;
 
 fn main() {
-    let sonuc = matematik::topla(2, 3);
+    let sonuc = shareable::topla(2, 3);
     println!("{}", sonuc);
 }
